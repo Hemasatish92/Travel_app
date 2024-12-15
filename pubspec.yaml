@@ -1,0 +1,45 @@
+name: travel_app
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.0.0
+  equatable: ^2.0.7
+  http:
+  font_awesome_flutter: ^10.0.0
+  # Add the flutter_cubit dependency here if needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/welcome-one.jpeg
+    - assets/img/welcome-two.jpeg
+    - assets/img/welcome-three.jpeg
+    - assets/img/button-one.png
+    - assets/img/beach.jpg
+    - assets/img/falls.jpg
+    - assets/img/hampi.jpg
+    - assets/img/hiking.jpg
+    - assets/img/jogfalls.jpg
+    - assets/img/mountain.jpg
+    - assets/img/mountains.jpg
+    - assets/img/museum.jpg
+    - assets/img/mysore-palace.jpeg
+    - assets/img/temple_logo.jpg
+    - assets/img/temple.jpg
+    - assets/img/vidhanasoudha.jpeg
